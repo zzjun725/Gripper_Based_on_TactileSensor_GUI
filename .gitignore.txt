@@ -1,0 +1,4 @@
+Data/
+backup/
+.git/
+.idea/
