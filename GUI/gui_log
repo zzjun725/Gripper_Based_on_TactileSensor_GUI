@@ -5259,3 +5259,331 @@ INFO:urx:Sending program: movel(p[-0.007669,0.53524,0.675963,3.106165,-0.465437,
 INFO:urx:Sending program: stopj(1.5)
 INFO:urx:Sending program: stopj(1.5)
 INFO:urx:Sending program: movel(p[-0.007652,0.535206,0.680403,3.106178,-0.465536,-0.00609], a=0.1, v=0.0003, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.301957,0.522335,0.806949,-2.816824,-0.15428,0.449377], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007627,0.535388,0.679466,3.10618,-0.465678,-0.006166], a=0.1, v=0.2, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.0077,0.535305,0.681476,3.106122,-0.465479,-0.006278], a=0.1, v=0.2, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007647,0.53532,0.680482,3.10611,-0.465515,-0.006072], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007644,0.535308,0.680488,3.106114,-0.465478,-0.006053], a=0.1, v=0.2, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movel(p[-0.007626,0.535295,0.679216,3.106196,-0.46552,-0.006072], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007596,0.535266,0.680502,3.106275,-0.46559,-0.006087], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007608,0.535273,0.678936,3.106259,-0.465567,-0.006035], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007583,0.535296,0.680467,3.106185,-0.46562,-0.006089], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007603,0.535273,0.678605,3.106221,-0.465581,-0.006043], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007576,0.535275,0.68049,3.106204,-0.465608,-0.006008], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007652,0.53534,0.680501,3.106188,-0.465469,-0.006056], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007605,0.535333,0.678615,3.106291,-0.465534,-0.006069], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007577,0.535311,0.680493,3.106287,-0.465601,-0.006085], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007621,0.53526,0.678266,3.106421,-0.465591,-0.00609], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007612,0.535256,0.680547,3.106465,-0.465558,-0.006079], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007662,0.53535,0.68049,3.106213,-0.465549,-0.00618], a=0.1, v=0.2, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007676,0.535312,0.680495,3.106188,-0.465374,-0.006153], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007673,0.535317,0.678984,3.106207,-0.465294,-0.006211], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007681,0.535293,0.680464,3.106248,-0.46519,-0.006203], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.00769,0.535283,0.6787,3.106295,-0.465231,-0.006267], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007678,0.535265,0.680479,3.106309,-0.465224,-0.006244], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007694,0.5353,0.678335,3.106282,-0.465191,-0.006196], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007647,0.535328,0.680414,3.106325,-0.465193,-0.006224], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007699,0.535294,0.678039,3.106398,-0.464923,-0.006216], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007685,0.535298,0.680401,3.106411,-0.464925,-0.006193], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1013
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007644,0.535331,0.680483,3.106161,-0.465523,-0.006098], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007624,0.535318,0.679003,3.106283,-0.465476,-0.006015], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007619,0.535305,0.680452,3.106252,-0.465495,-0.006078], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007615,0.53529,0.678653,3.106213,-0.465543,-0.006028], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007606,0.535292,0.680422,3.106223,-0.46544,-0.006068], a=0.1, v=0.0003, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007701,0.5353,0.680031,3.106228,-0.465456,-0.006197], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007692,0.535319,0.67854,3.106319,-0.46545,-0.006217], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007686,0.535286,0.680002,3.106327,-0.465457,-0.006155], a=0.1, v=0.0003, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007718,0.535343,0.679977,3.106162,-0.465446,-0.006253], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007684,0.535338,0.678499,3.106273,-0.465425,-0.006211], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007691,0.535305,0.680008,3.106319,-0.465494,-0.006137], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007707,0.535298,0.678234,3.106395,-0.465443,-0.006103], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007675,0.535309,0.680003,3.106408,-0.46555,-0.006114], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007696,0.535319,0.677895,3.106352,-0.465495,-0.006131], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.00769,0.535325,0.679939,3.10632,-0.46539,-0.006218], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007686,0.535347,0.679989,3.106187,-0.465507,-0.006226], a=0.1, v=0.2, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007718,0.53535,0.680382,3.106158,-0.465388,-0.006256], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007706,0.535324,0.678907,3.106271,-0.465304,-0.006253], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007666,0.535315,0.680422,3.106309,-0.465486,-0.006274], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007697,0.535297,0.678627,3.106333,-0.465447,-0.006232], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007671,0.535283,0.680397,3.106298,-0.465527,-0.006217], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007699,0.5353,0.678284,3.106335,-0.465371,-0.006272], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007676,0.535276,0.680354,3.10627,-0.465395,-0.006228], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007696,0.535306,0.677926,3.106212,-0.465297,-0.006267], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007646,0.535302,0.680283,3.106171,-0.4655,-0.006249], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007683,0.535306,0.682513,3.106223,-0.465455,-0.006141], a=0.1, v=0.2, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007678,0.535334,0.680464,3.106105,-0.465571,-0.006109], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007664,0.535327,0.678941,3.106213,-0.465504,-0.006108], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.00767,0.535283,0.680486,3.106233,-0.465455,-0.006083], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007701,0.535294,0.678647,3.10632,-0.465425,-0.006065], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007681,0.535263,0.680476,3.106362,-0.465479,-0.00605], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007701,0.535263,0.678339,3.106341,-0.465466,-0.006095], a=0.1, v=0.0003, r=0)
+INFO:urx:Sending program: movel(p[-0.007685,0.535247,0.680488,3.106413,-0.465492,-0.006075], a=0.1, v=0.0003, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007715,0.535359,0.67994,3.106082,-0.465472,-0.006233], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007668,0.535368,0.677276,3.106085,-0.465531,-0.006081], a=0.1, v=0.0005, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.00769,0.535345,0.680446,3.106062,-0.465526,-0.006236], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007675,0.535343,0.678238,3.106122,-0.465472,-0.006246], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007651,0.535288,0.680511,3.106291,-0.46555,-0.006179], a=0.1, v=0.0004, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007701,0.535356,0.680164,3.106097,-0.46555,-0.006246], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007642,0.535364,0.677943,3.106093,-0.465605,-0.006153], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.00764,0.535325,0.680203,3.10623,-0.465603,-0.006137], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007658,0.535316,0.677587,3.106208,-0.465622,-0.006104], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007647,0.535286,0.68026,3.10635,-0.465664,-0.006066], a=0.1, v=0.0004, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007687,0.535356,0.680182,3.106134,-0.465556,-0.006142], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007643,0.535363,0.678218,3.10595,-0.465565,-0.006018], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007621,0.535331,0.680137,3.106034,-0.465645,-0.005954], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007585,0.535304,0.677949,3.106018,-0.465803,-0.006066], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007578,0.535255,0.680196,3.106109,-0.465851,-0.006021], a=0.1, v=0.0004, r=0)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007669,0.535345,0.680201,3.106207,-0.465434,-0.006072], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.007625,0.535382,0.677976,3.106264,-0.465458,-0.006042], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007643,0.535364,0.6802,3.106394,-0.465341,-0.006033], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007673,0.535354,0.677647,3.106473,-0.465393,-0.006069], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007643,0.535359,0.68025,3.106507,-0.465344,-0.006043], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007678,0.535378,0.677222,3.106426,-0.465292,-0.006066], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007617,0.535355,0.680251,3.106494,-0.465463,-0.005965], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007682,0.535359,0.680458,3.106093,-0.465512,-0.006153], a=0.1, v=0.2, r=0)
+INFO:urx:Sending program: movel(p[-0.00765,0.535366,0.678643,3.106135,-0.465607,-0.006086], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007638,0.535329,0.680432,3.106153,-0.465733,-0.006055], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007684,0.535301,0.6784,3.106291,-0.465668,-0.006024], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007634,0.535292,0.680498,3.106321,-0.465801,-0.005992], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007577,0.535329,0.678078,3.106294,-0.465934,-0.005958], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007563,0.53531,0.680503,3.106385,-0.466024,-0.005988], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: movel(p[-0.007592,0.535337,0.677803,3.106408,-0.465856,-0.005991], a=0.1, v=0.0004, r=0)
+INFO:urx:Sending program: stopj(1.5)
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 68
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1092
+WARNING:ursecmon:tried 11 times to find a packet in data, advertised packet size: -2, type: 3
+WARNING:ursecmon:Data length: 1418
+INFO:ursecmon:Remove 79 bytes of garbage at begining of packet
+INFO:urx:Sending program: set_tcp(p[0, 0, 0, 0, 0, 0])
+INFO:urx:Sending program: set_payload(0.5, (0,0,0))
+INFO:urx:Sending program: movej([-1.885,-1.5708,1.0472,-1.0472,-1.5708,0.0], a=0.2, v=0.4, r=0)
+INFO:urx:Sending program: movel(p[-0.007699,0.535354,0.680452,3.106076,-0.465528,-0.006252], a=0.1, v=0.2, r=0)

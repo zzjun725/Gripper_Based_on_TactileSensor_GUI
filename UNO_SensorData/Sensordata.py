@@ -147,8 +147,8 @@ class DataLoader(object):
         fig = []
         if isinstance(data_list, list):
             for data in data_list:
-                data_plot = data.iloc[:, :-1]
-                fig.append(data.plot.line(subplots=sub))
+                # data_plot = data.iloc[:, :-1]
+                fig.append(data.plot.line(subplots=sub, title='Tactile sensor'))
         if isinstance(data_list, pd.DataFrame):
             fig.append(data_list.plot.line(subplots=sub))
         return fig
@@ -162,14 +162,25 @@ class Tactile_DataLoader(DataLoader):
         self.sensordata_save = pd.DataFrame([self.sensordata_per], columns=range(sensor_num))
         self.sensordata_deltasave = pd.DataFrame([self.sensordata_per], columns=range(sensor_num))
         self.test_times = 0
+        self.start_sample = 50
+        self.end_sample = 300
 
-    def load_data(self, data_dir, mode='delta', times=1):
+    def load_data(self, data_dir, mode='abs', point='single', pin=0):
         data_path_list = os.listdir(os.path.join(data_dir, mode))
         data_list = [pd.DataFrame() for _ in range(len(data_path_list))]
-        for idx in range(len(data_path_list)):
-            data_path = os.path.join(data_dir, mode, data_path_list[idx])
-            data_list[idx] = pd.read_csv(data_path)
-        return data_list
+        if point == 'muti':
+            for idx in range(len(data_path_list)):
+                data_path = os.path.join(data_dir, mode, data_path_list[idx])
+                data_list[idx] = pd.read_csv(data_path)
+            return data_list
+        if point == 'single':
+            for idx in range(len(data_path_list)):
+                data_path = os.path.join(data_dir, 'abs', data_path_list[idx])
+                data_list[idx] = pd.read_csv(data_path).iloc[self.start_sample:self.end_sample, pin].reset_index(drop=True)
+            return data_list
+
+
+    #def plot(self, data_list, ):
 
 
 class Force_Dataloader(DataLoader):
@@ -177,6 +188,8 @@ class Force_Dataloader(DataLoader):
         super().__init__()
         self.time_stamp_pos = 9
         self.spec_force_pos = 2
+        self.start_sample = 50
+        self.end_sample = 300
 
     def load_data(self, data_dir, times=1):
         data_path_list = os.listdir(data_dir)
@@ -186,7 +199,7 @@ class Force_Dataloader(DataLoader):
             data_path = os.path.join(data_dir, data_path_list[idx])
             data_tmp = pd.read_csv(data_path)
             start_time_list[idx] = data_tmp.columns.to_list()[self.time_stamp_pos]
-            data_list[idx] = pd.read_csv(data_path).iloc[:, self.spec_force_pos]
+            data_list[idx] = pd.read_csv(data_path).iloc[self.start_sample:self.end_sample, self.spec_force_pos]
         return data_list, start_time_list
 
 

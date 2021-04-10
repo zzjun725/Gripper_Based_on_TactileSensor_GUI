@@ -108,7 +108,7 @@ class SensorDataWidget(QWidget):
 class GraspWidget(QWidget):
     def __init__(self, parent=None):
         super().__init__()
-        self.rob = UR_Robot_Arm(a=0.1, v=0.0003)
+        self.rob = UR_Robot_Arm(a=0.1, v=0.0004, work_z=0.254, press_z=0.003)
         self.display()
         self.grasp_th = GraspThread(target=self.rob_grasp, args=None)
         self.test_th = BaseThread(target=self.rob_test, args=None)

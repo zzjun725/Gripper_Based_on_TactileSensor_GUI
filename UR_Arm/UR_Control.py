@@ -7,9 +7,9 @@ from utils import utils
 class UR_Robot_Arm:
     def __init__(self, rob_id="192.168.1.233",
                  ini_y=0.1, ini_z=-0.2,
-                 work_z=0.255, work_y=0.10,
-                 press_z=0.0035, press_x=0.02,
-                 grasp_times=2,
+                 work_z=0.254, work_y=0.10,
+                 press_z=0.003, press_x=0.02,
+                 grasp_times=2, press_times=5,
                  a=0.15, v=0.25):
         self.ini_y = ini_y
         self.ini_z = ini_z
@@ -20,6 +20,7 @@ class UR_Robot_Arm:
         self.work_a = a
         self.work_v = v
         self.grasptimes = grasp_times
+        self.press_times = press_times
         self.rob = urx.Robot(rob_id)
         self.inipose = utils.safe_setzero(self.rob.getj())
         self.rob.set_tcp((0, 0, 0, 0, 0, 0))
@@ -45,7 +46,7 @@ class UR_Robot_Arm:
         self.rob.movej(work_pose, acc=a, vel=v, wait=False)
         time.sleep(5)
         self.rob.translate_tool((0, self.work_y, self.work_z),
-                               acc=0.1, vel=0.2, wait=False)
+                                acc=0.1, vel=0.2, wait=False)
         time.sleep(8)
 
         return work_pose
@@ -69,14 +70,15 @@ class UR_Robot_Arm:
     def press_A(self):
         pose = self.rob.getl()
         print("robot tcp is at: ", pose)
-
-        for _ in range(6):
-            self.rob.translate_tool((0, 0, self.press_z),
+        tmp = round(self.press_z / (2*self.press_times), 4)
+        for _ in range(self.press_times):
+            self.rob.translate_tool((0, 0, (self.press_z / 2 + tmp)),
                                     acc=self.work_a, vel=self.work_v, wait=False)
             time.sleep(15)
-            self.rob.translate_tool((0, 0, -self.press_z),
+            self.rob.translate_tool((0, 0, -(self.press_z / 2 + tmp)),
                                     acc=self.work_a, vel=self.work_v, wait=False)
-            time.sleep(15)
+            time.sleep(45)
+            tmp += round(self.press_z / (2*self.press_times), 4)
             # self.rob.translate_tool((self.press_x, 0, 0),
             #                         acc=0.1, vel=0.1, wait=False)
             # time.sleep(2)
